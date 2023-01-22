@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	grid-area: header;
+}
+.sidebar{
+	grid-area: sidebar;
+}
+.main{
+	grid-area: main;
+}
+.footer{
+	grid-area: footer;
+}
+.container{
+	display: grid;
+	grid-template-areas: 'header header header header' 'sidebar main main main' 'footer footer footer footer';
+	gap: 15px;
+}
+.header{
+	background-color: blueviolet;
+	height: 100px;
+}
+.sidebar{
+	background-color: skyblue;
+	height: 600px;
+}
+.main{
+	background-color: aliceblue;
+	height: 600px;
+}
+.footer{
+	background-color: darkblue;
+	height: 100px;
+}

@@ -1,0 +1,45 @@
+*{
+		margin: 0px;
+		padding: 0px;
+	}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #f4f4f5;
+}
+.box{
+	padding: 20px;
+	height: 450px;
+	width: 300px;
+	margin: 20px;
+	background-color: white;
+}
+.image{
+	margin: -20px;
+	padding: 0px;
+	height: 150px;
+	width: 340px;
+}
+.headingTag{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 35px;
+	margin-top: 40px;
+}
+.paraTag{
+	font-family: sans-serif;
+	margin-top: 20px ;
+}
+.button{
+	background-color: white;
+	margin-top: 40px;
+	margin-left: 50px;
+	height: 60px;
+	width: 200px;
+}
+.paraTag2{
+	font-size: 15px;
+	margin-top: 15px;
+	text-align: center;
+		}
