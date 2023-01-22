@@ -1,36 +1,46 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Feedback Form</title>
-</head>
-<body>
-	<form action="./14submitPage.html">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Feedback Form</title>
+	</head>
+	<body>
+		<fieldset>
+			<legend>Feedback Form</legend><form action="./14submitPage.html">
 			<p align="right">*Note :
 			Your contributions will be used to tailor your experience and will not be shared with any third parties.</p>
-
 			
-			Full Name : <input type="text" name="Your Name" size="50" placeholder="enter yor name here">
+			Full Name : <input type="text" name="Your Name" size="50" placeholder="enter yor name here" required>
 			</br>
 			</br>
-			Email Address : <input type="Email" name="Email" placeholder="enter your email here">
+			Email Address : <input type="Email" name="Email" placeholder="enter your email here" required>
 			</br>
 			</br>
 			Date of birth : <input type="Date" name="Date">
 			</br>
 			</br>
-			Gender : <input type="radio" name="Gender" value="Male"> Male
-					<input type="radio" name="Gender" value="Female"> Female
+			<label>
+				Gender : <input type="radio" name="Gender" value="Male" > Male
+			</label>
+			<label>
+				<input type="radio" name="Gender" value="Female" > Female
+			</label>
 			
 			</br>
 			</br>
-			City you enjoyed Titu in : <input type="checkbox" name="Delhi" value="Delhi"> Delhi
-			<input type="checkbox" name="Mumbai" value="Mumbai">Mumbai
-			<input type="checkbox" name="Kolkata" value="Kolkata"> kolkata
+			<label>
+				City you enjoyed Titu in : <input type="checkbox" name="Delhi" value="Delhi"> Delhi
+			</label>
+			<label>
+				<input type="checkbox" name="Mumbai" value="Mumbai">Mumbai
+			</label>
+			<label>
+				<input type="checkbox" name="Kolkata" value="Kolkata"> kolkata
+			</label>
 			</br>
 			</br>
-			How was your experience at Titu's : 
+			How was your experience at Titu's :
 			<select name="Rating">
 				<option value="Loved it"> Good</option>
 				<option value="It was good">It was good</option>
@@ -40,8 +50,8 @@
 			</br>
 			</br>
 			<input type="submit" name="Submit">
-				<!-- <button>Submit</button> -->
+			<!-- <button>Submit</button> -->
 			<input type="reset" name="Reset">
-		</form>
-</body>
+		</form></fieldset>
+	</body>
 </html>
