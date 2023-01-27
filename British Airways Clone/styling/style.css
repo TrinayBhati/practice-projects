@@ -1,7 +1,7 @@
 *{
 		margin: 0px;
 		padding: 0px;
-	}
+}
 .container{
 	display: flex;
 	flex-wrap: wrap;
@@ -24,6 +24,7 @@
 .headingTag{
 	text-align: center;
 	font-family: sans-serif;
+	font-weight: 200;
 	font-size: 35px;
 	margin-top: 40px;
 }
@@ -42,4 +43,41 @@
 	font-size: 15px;
 	margin-top: 15px;
 	text-align: center;
-		}
+}
+.sidebar{
+	grid-area: sidebar;
+}
+.main{
+	grid-area: main;
+}
+.container2{
+	background-color: #f4f4f5;
+	display: grid;
+	grid-template-areas: 'sidebar main main' ;
+}
+.sidebar{
+
+        background-color: white;
+        height: 600px;
+        margin: 20px;
+        margin-left: 210px;
+}
+.main{
+        background-color: white;
+        height: 600px;
+        margin: 20px;
+        margin-right: 210px;
+}
+.image2{
+	height: 200px;
+	width: auto;
+}
+.container-flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+button:hover{	
+        color: white;
+        background-color: #2671d3;	
+}
