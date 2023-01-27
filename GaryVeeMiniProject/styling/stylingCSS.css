@@ -1,0 +1,183 @@
+*{
+	margin: 0px;
+	padding: 0px;
+/* 	background-color: #aecded;
+ */}
+.header{
+	grid-area: header;
+}
+.banner{
+	grid-area: banner;
+}
+.main{
+	grid-area: main;
+}
+.footer{
+	grid-area: footer;
+}
+
+.container{
+	display: grid;
+	grid-template-areas: 'header' 'banner' 'main' 'footer';
+/* 	gap: 5px;
+ */}
+.header{
+	background-color: #b1c4e5;
+	height: 700px;
+}
+.banner{
+	background-color: #aecded;
+	height: 250px;
+}
+.main{
+	background-color: #aecded;
+	height: 600px;
+}
+.footer{
+	background-color: #aecded;
+	height: 100px;
+}
+h1{
+	display: inline-block;
+	padding-top: 20px;
+	font-family: sans-serif;
+	color: #1a5aad;
+	font-weight: 900;
+	font-size: 90px;
+	text-shadow: 1px 2px #022654;
+}
+h2{
+	color: #306bb8;
+	padding-top: 0px;
+	padding-left: 5px;
+	font-family: sans-serif;
+	margin: 0px;
+	font-size: 27px;
+	text-shadow: 1px 1px #022654;
+}
+
+h4{
+	text-align:right ;
+	padding-top: 15px;
+	padding-right: 50px;
+	font-size: 27px;
+	text-shadow: 1px 1px #022654;
+	font-family: sans-serif;
+	color: #306bb8;
+
+}
+.image{
+	height: 700px;
+	background-image: url('./2garyVee.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.flex-box{
+	display: flex;
+	flex-wrap: wrap;
+}
+.para1{
+	height: 250px;
+	width: 1000px;
+	background-color: #aecded;
+}
+.box{
+	margin-left: 10px;
+	height: 250px;
+	width: 509px;
+}
+.paraImage1{
+	background-image: url('./3garyVee.png');
+    background-size: cover;
+
+/*  background-attachment: fixed;
+
+ */ background-repeat: no-repeat;
+    position: relative;
+
+}
+.second{
+	position: absolute;
+	font-size: 25px;
+	top: 100px;
+	left: 10px;
+	color: #1a5aad;
+	font-family: cursive;
+}
+.second1{
+	position: absolute;
+	font-family: cursive;
+	font-size: 25px;
+	top: 100px;
+	left: 340px;
+	color: #1a5aad;
+
+}
+p{
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+h3{
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	font-size: 35px;
+	font-family: sans-serif;
+	text-shadow: 1px 1px #022654;
+	color: #306bb8;
+}
+p{
+	font-size: 20px;
+	font-family: sans-serif;
+	color:#306bb8 ;
+}
+.para2{
+	text-align: center;
+}
+.list{
+	height: 500px ;
+	width: 400px;
+	background-color: white;
+	margin: 20px;
+	margin-top: 50px;
+	margin-left: 30px;
+	background-color: #6eaceb;
+	overflow:scroll;
+	box-shadow: 15px 15px 20px #1a5aad;
+
+}
+.image2{
+	margin-top: 50px;
+	margin-left: 10px;
+	height: 500px;
+	width: 600px;
+	background-color: black;
+	box-shadow: 20px 20px 30px #820808;
+}
+ul {
+     list-style-type: margin;
+     padding: 30px;
+     font-family: sans-serif;
+}
+li{
+	padding: 1px;
+}
+.image2{
+	background-image: url('./1garyVee.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.footer{
+	text-align: center;
+}
+a:link{
+	color: black;
+}
+a:visited{
+	color: black;
+}
+a:hover{
+	color: blueviolet;
+}
