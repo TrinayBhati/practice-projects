@@ -36,12 +36,12 @@
 	height: 2000px;
 }
 .main{
-	background-color: #222222;
+	background-color: black;
 	height: 950px;
 }
 .footer{
 	background-color: white;
-	height: 400px;
+	height: 300px;
 }
 .netflixLogo{
 	display: inline-block;
@@ -114,8 +114,26 @@ h3{
 h4{
 	color: white;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	font-size: 60px;
-
+	font-weight: 100;
+	font-size: 55px;
+	margin-top: 20px;
+	margin-left: 78px;
+}
+h5{
+	color: white;
+	font-family: sans-serif;
+	font-weight: 100;
+	font-size: 25px;
+	margin-top: 20px;
+	margin-left: 80px;
+}
+pre{
+	color: white;
+	font-family: sans-serif;
+	font-weight: 100;	
+	font-size: 30px;	
+	margin-left: 30px;	
+	padding-top: 20px;
 }
 .flex{
 	display: flex;
@@ -145,39 +163,65 @@ h4{
 .inputButton:hover{
 	background-color: #FF0000;
 }
+
 .bn1{
-	grid-area: bn1;
+	height: 490px;
+	background-color: black;
+	margin-top: 7.5px;
 }
 .bn2{
-	grid-area: bn2;
+	height: 490px;
+	background-color: black;
+		margin-top: 7.5px;
 }
 .bn3{
-	grid-area: bn3;
+	height: 490px;
+	background-color: black;
+		margin-top: 7.5px;
 }
 .bn4{
-	grid-area: bn4;
-}
-.banner{
-	display: grid;
-	grid-template-areas: 'bn1' 'bn2' 'bn3' 'bn4';
-	gap: 7px;
-	margin-top: 7px;
-}
-.bn1{
+	height: 490px;
 	background-color: black;
+		margin-top: 7.5px;
 }
-.bn2{
+.banner-flex{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+.banner-para{
+	margin: 30px;
+	margin-top: 75px;
+	height: 400px;
+	width: 600px;
 	background-color: black;
+	padding-top: 40px;
+	padding-left: 40px;
 }
-.bn3{
-	background-color: black;
+img{
+	height: 400px;
 }
-.bn4{
-	background-color: black;
-}
-.banner-text{
-	width: 640px ;
-} 
 .banner-image{
-	width: 640px;
+	margin: 30px;
+	margin-top: 45px;	
+	height: 400px;
+	width: 600px;
+	background-color: black;
+}
+.main-heading{
+	height: 200px;
+	background-color: black;
+	text-align: center;
+	padding-top: 70px;
+}
+.main-body{
+	height: 600px;
+	background-color: black;
+}
+.dropdown{
+	height: 80px;
+	width: 900px;
+	background-color: #303030;
+	margin-left: 360px;
+	margin-top: 8px;
 }

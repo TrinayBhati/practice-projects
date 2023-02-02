@@ -16,7 +16,7 @@
 	grid-area: footer;
 }
 
-.container{
+.container-fluid{
 	display: grid;
 	grid-template-areas: 'header' 'banner' 'main' 'footer';
 /* 	gap: 5px;
