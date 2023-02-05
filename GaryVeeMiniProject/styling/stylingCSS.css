@@ -3,6 +3,9 @@
 	padding: 0px;
 /* 	background-color: #aecded;
  */}
+	.container-fluid{
+		background-color: #aecded;
+	}
 .header{
 	grid-area: header;
 }
