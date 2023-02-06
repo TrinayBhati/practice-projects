@@ -1,0 +1,33 @@
+*{
+	margin: 0px;
+}
+.container{
+	background-color: lightgrey;
+	height: 92vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.header{
+	height: 4vh;
+	width: 100vw;
+	background-color: brown;
+}
+.login-card{
+	height: 92vh;
+	width: 600px;
+	background-color: black;
+	border-radius: 10px;
+}
+.footer{
+	height: 4vh;
+	width: 100vw;
+	background-color: yellow;
+}
+@media only screen and (max-width: 600px) {
+  .login-card{
+  	height: 92vh;
+  	width: 200px;
+    background-color: lightblue;
+}
+}

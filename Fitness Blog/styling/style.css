@@ -1,0 +1,30 @@
+.*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.nav-bg-color{
+	background-color: gray;
+	height:60px;
+}
+.nav-space{
+	padding-left: 420px;
+}
+.nav-text-color{
+	color: white;
+}
+.navbar-image{
+	height: 25px;
+}
+.header{
+	background-color: cyan;
+	height: 600px;
+}
+.sidebar{
+	background-color: black;
+	height: 700px;
+}
+.main{
+	background-color: blue;
+	height: 700px;
+}
