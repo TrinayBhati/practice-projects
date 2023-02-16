@@ -1,0 +1,43 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.container-main{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-wrap: ;
+	justify-content: center;
+	background-color: gray;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+.sidebar{
+	grid-area: sidebar;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.sidebar-image{
+	margin: 10px;
+}
+.image1{
+	border-radius: 360px;
+	border: 10px solid gray;
+	width: 100%;
+}
+.body{
+	grid-area: body;
+	background-color: blue;
+}
+.resume-card{
+	height: 90%;
+	width: 75%;
+	background-color: white;
+	display: grid;
+	grid-template-areas: 'sidebar body body body';
+	border-radius: 25px;
+	overflow: hidden
+}
