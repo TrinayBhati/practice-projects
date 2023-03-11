@@ -1,0 +1,33 @@
+.fa-clock-o{
+	font-size: 40px;
+	color: white;
+}
+.navB{
+	font-size: 40px;
+	margin-left: 20px;
+	color: white;
+	font-weight: bold;
+}
+a:hover{
+	color: gray !important;
+}
+.navBarColor{
+	background-color: black !important;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #19191A !important;
+	border-radius: 30px;
+}
+p{
+	color: white;
+}
+h1{
+	color: white;
+	font-weight: bold;
+}
+body{
+	background-color: #292929;
+}
