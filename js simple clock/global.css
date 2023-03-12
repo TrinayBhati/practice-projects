@@ -20,6 +20,7 @@ a:hover{
 	justify-content: center;
 	background-color: #19191A !important;
 	border-radius: 30px;
+	height: 60vh !important;
 }
 p{
 	color: white;
