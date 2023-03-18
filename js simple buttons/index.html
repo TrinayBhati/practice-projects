@@ -3,80 +3,24 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>dom</title>
-		<style type="text/css">
-			#main-div{
-				display: flex;
-				flex-wrap: wrap;
-				justify-content: center;
-				padding: 10px;
-			}
-			#red{
-				margin: 10px;
-				height: 100px ;
-				width: 100px ;
-				background-color: red
-			}
-			#yellow{
-				margin: 10px;
-				height: 100px ;
-				width: 100px ;
-				background-color: yellow
-			}
-			#green{
-				margin: 10px;
-				height: 100px ;
-				width: 100px ;
-				background-color: green
-			}
-			#reset{
-				width: 200px;
-				height: 100px;
-				margin: 10px;
-
-			}
-		</style>
+		<title>mini project</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Sono:wght@800&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="./style.css">
 	</head>
 	<body>
-		<div id="main-div">
-			<button id="red" class="buttons" value="red"></button>
-			<button id="yellow" class="buttons" value="yellow"></button>
-			<button id="green" class="buttons" value="green"button></button>
-			<button id="reset"> Clear all</button>
-		</div>
-		<script type="text/javascript">
-			// let redDiv = document.getElementById('red');
-			// let yellowDiv = document.getElementById('yellow');
-			// let greenDiv = document.getElementById('green');
-			// redDiv.onclick = () =>console.log("red clicked bitch")
-			// yellowDiv.onclick = () => console.log("clicked on yellow boi");
-			// greenDiv.onclick = ()=> console.log('alr mfer u clicked green');
-			// const squares =
-			// document.querySelectorAll('.buttons');
-			// squares.forEach(square => console.log(square.value));
-			// squares.forEach(square => {
-			// 	square.onclick = () => console.log(square.value);
-			// })
-			let squares =
-			document.querySelectorAll('.buttons');
-			let timesClicked = {'red' : 0,'yellow' : 0,'green':0 };
-			squares.forEach((square) => {
-			  square.onclick = ()=>{
-			  	timesClicked[square.value]+=1;
-			  	square.innerText  = timesClicked[square.value];
-			  }
-			})
-			let resetAll = ()=>{
-				timesClicked.red=0;
-				timesClicked.yellow=0;
-				timesClicked.green=0;
-				squares.forEach(square => {
-					square.innerText='';
-				})
-			}
-			let resetButton = document.getElementById('reset');
-			resetButton.onclick = () => resetAll() 
+		<div class="main">
+			Enter number of boxes :
+			
+				<input type="number" name="number" id="input" onfocus="focusHere(event)">
+			<button id="btn"> SUBMIT</button>
 
-		</script>
+		</div>
+				<div id="errorMessage"></div>
+		<div id="box">
+			
+		</div>
+		<script type="text/javascript" src="./script.js"></script>
 	</body>
 </html>

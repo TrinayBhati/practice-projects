@@ -1,0 +1,50 @@
+::selection{
+	color: white;
+}
+.main{
+	font-family: 'Sono', sans-serif;
+	color: #F9DBBB;
+	font-size: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+body{
+	background-color: #181823;
+}
+.odd,
+.even{
+	font-family: 'Sono', sans-serif;
+	font-size: 25px;
+	height: 200px;
+	width: 200px;
+	margin: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+.odd{
+	background-color: #C0EEF2;
+}
+.even{
+	background-color: #537FE7;
+}
+#box{
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	justify-content: space-around;
+}
+#errorMessage {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Sono', sans-serif;	
+	color: red;
+  font-size: 35px;
+}
