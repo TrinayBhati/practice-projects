@@ -4,7 +4,7 @@
 }
 body{
     text-align: center;
-    background-color: #0B2447;
+    background-color: #051124;
 }
 .main{
     margin-top: 90px;
@@ -27,7 +27,7 @@ body{
     font-size: 2rem;
     cursor: pointer;
     padding: 0.5rem 2rem;
-    border: 3px solid #461111;
+    border: 3px solid #0B2447;
     border-radius: 10px;
     margin-top: 30px;
     font-weight: bold;
@@ -43,8 +43,8 @@ body{
     width: 200px;
     background-color: #A5D7E8;
     position: relative;
-    border: 2px solid #461111;
-    border-radius: 10px;
+/*     border: 2px solid #0B2447; */
+/*     border-radius: 10px; */
     box-sizing: border-box; 
 }
 #slider1{
