@@ -2,26 +2,32 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
-import { CardActionArea } from "@mui/material";
+import { CardActionArea, Rating } from "@mui/material";
 
-const HotelCard = () => {
+const HotelCard = ({ hotel }) => {
+  const hotelDetails = hotel;
+
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345, marginBottom: 5 }}>
       <CardActionArea>
         <CardMedia
           component="img"
           height="230"
-          image="https://www.peninsula.com/-/media/homepage---andy/exterior-2_1920.jpg"
+          image={hotelDetails.thumbnail}
           alt="hotel"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Cedar City, Utah, US
+            {hotelDetails.address}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+            ${hotelDetails.pricePerNight} per Night
           </Typography>
+          <Rating
+            name="read-only"
+            value={Math.floor(hotelDetails.rating)}
+            readOnly
+          />
         </CardContent>
       </CardActionArea>
     </Card>
