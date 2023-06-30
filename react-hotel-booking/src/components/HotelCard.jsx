@@ -3,12 +3,18 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea, Rating } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 const HotelCard = ({ hotel }) => {
+  const navigate = useNavigate();
   const hotelDetails = hotel;
 
+  const onCardClick = () => {
+    console.log("cli", hotelDetails);
+    navigate(`/hotel-details/${hotelDetails.slug}`);
+  };
   return (
-    <Card sx={{ maxWidth: 345, marginBottom: 5 }}>
+    <Card onClick={onCardClick} sx={{ maxWidth: 345, marginBottom: 5 }}>
       <CardActionArea>
         <CardMedia
           component="img"
